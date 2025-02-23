@@ -1,3 +1,10 @@
+import { generateMetadata } from "@/utils/metadata";
+
+export const metadata = generateMetadata({
+  title: "About",
+  description: "ini about",
+});
+
 function About() {
   return (
     <div>

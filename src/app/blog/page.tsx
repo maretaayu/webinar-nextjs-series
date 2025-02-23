@@ -34,7 +34,7 @@ function Blog() {
           <p className="text-lg">{featuredPost.content}</p>
           <Link href={`/blog/${featuredPost.slug}`} className="mt-6">
             <Button label="Read More" size="responsive" variant="secondary" />
-          </Link>{" "}
+          </Link>
         </div>
       </div>
 

@@ -7,7 +7,7 @@ type MetadataParams = {
 };
 
 const defaultMetadata: Metadata = {
-  icons: { icon: "/IconLinkedin.svg" },
+  icons: { icon: "/IconTwitter.svg" },
 };
 
 export const generateMetadata = ({

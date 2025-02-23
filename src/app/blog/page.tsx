@@ -3,6 +3,12 @@ import Image from "next/image";
 import { post } from "@/data/data"; // Import data post
 import Button from "@/components/Button";
 import Link from "next/link";
+import { generateMetadata } from "@/utils/metadata";
+
+export const metadata = generateMetadata({
+  title: "Blog",
+  description: "ini blog",
+});
 
 function Blog() {
   const featuredPost = post.find((p) => p.isFeatured) || post[0];

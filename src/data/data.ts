@@ -1,5 +1,6 @@
 export const post = [
   {
+    isFeatured: false,
     slug: "agile-methodologies-2023",
     title: "Agile Methodologies in 2023",
     category: "Software Engineering",
@@ -8,14 +9,17 @@ export const post = [
     content: "Agile methodologies have transformed software development...",
   },
   {
+    isFeatured: true,
     slug: "artificial-intelligence-2023",
     title: "Artificial Intelligence in 2023",
     category: "Machine Learning",
     date: "October 5, 2023",
     thumbnail: "/Article-2.png",
-    content: "Artificial intelligence (AI) is a rapidly evolving field that...",
+    content:
+      "Artificial intelligence is transforming industries and shaping the future. Discover the latest trends and innovations.",
   },
   {
+    isFeatured: false,
     slug: "cloud-computing-2023",
     title: "Cloud Computing in 2023",
     category: "Cloud Computing",
@@ -24,6 +28,7 @@ export const post = [
     content: "Cloud computing has revolutionized the way we interact with...",
   },
   {
+    isFeatured: false,
     slug: "agile-methodologies-2023",
     title: "Agile Methodologies in 2023",
     category: "Software Engineering",
@@ -32,6 +37,7 @@ export const post = [
     content: "Agile methodologies have transformed software development...",
   },
   {
+    isFeatured: false,
     slug: "artificial-intelligence-2023",
     title: "Artificial Intelligence in 2023",
     category: "Machine Learning",
@@ -40,6 +46,7 @@ export const post = [
     content: "Artificial intelligence (AI) is a rapidly evolving field that...",
   },
   {
+    isFeatured: false,
     slug: "cloud-computing-2023",
     title: "Cloud Computing in 2023",
     category: "Cloud Computing",

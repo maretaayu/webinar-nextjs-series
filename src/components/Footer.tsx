@@ -6,7 +6,7 @@ function Footer() {
     <div className="bg-black text-white py-20">
       <div className="page-center">
         <p className="text-center">© 2025 Personal Showcase</p>
-        <div className="flex justify-center items-center mt-12">
+        <div className="flex justify-center items-center mt-12 gap-4 flex-wrap">
           <ul className="flex gap-6 items-center">
             <li>
               <Link href="/">Home</Link>

@@ -3,7 +3,7 @@ type ButtonProps = {
   onClick?: () => void;
   variant?: "primary" | "secondary";
   className?: string;
-  size?: "sm" | "lg";
+  size?: "sm" | "lg" | "responsive";
 };
 
 function Button({
@@ -23,6 +23,7 @@ function Button({
   const sizeStyle = {
     sm: "py-2 px-4 text-sm",
     lg: "py-4 px-8 text-lg",
+    responsive: "py-2 px-4 text-sm md:py-4 md:px-8 md:text-lg",
   };
 
   return (

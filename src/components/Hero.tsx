@@ -20,15 +20,15 @@ const items = [
 function Hero() {
   return (
     <div className="flex flex-col md:flex-row justify-between">
-      <div className="justify-center text-left flex flex-col gap-8 w-full md:w-1/2 px-[16px] md:px-[100px]">
-        <h1 className="font-black text-3xl">
+      <div className="justify-center text-left flex flex-col gap-4 md:gap-8 w-full pt-20 md:w-1/2 px-[16px] md:px-[100px]">
+        <h1 className="font-black text-xl md:text-3xl">
           Hi, I’m <span className="text-blue-500">John Doe</span>
         </h1>
-        <h2 className="text-5xl font-bold">
+        <h2 className="text-3xl font-bold md:text-5xl">
           Turning complex problems into elegant solutions
         </h2>
         <div className="flex gap-8 items-center">
-          <Button label="Let's Work Together" size="lg" />
+          <Button label="Let's Work Together" size="responsive" />
           <div className="flex gap-2 items-center ">
             {images.map((image, index) => (
               <Image
@@ -50,7 +50,7 @@ function Hero() {
         </p>
       </div>
 
-      <div className="bg-gray-50 p-16 flex flex-col items-center relative">
+      <div className="bg-gray-50 p-6 md:p-16 flex flex-col items-center relative">
         <Image
           src="/JohnDoeImage.png"
           width={282}
